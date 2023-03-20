@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+    background-image: url('/images/pexels-anete-lusina-5239790.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color:white ;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+}
+#input-task{
+    flex: 6;
+    padding: 5px ;
+    margin: 0 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#enter-task{
+    flex: 1;
+    padding: 5px;
+    margin-right: 4px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: orange;
+    background-color: white;
+    transition: .2s;
+}
+#enter-task:hover{
+ background-color: orange;
+ color: white;
+}
+.new-task{
+    background-color: white;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 3px black;
+        margin-top: 25px;
+
+}
+.new-task li{
+    list-style: none;
+    flex: 5;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.check-btn{
+    flex: 1;
+        padding: 5px;
+        margin-right: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 1px solid black;
+        color: green;
+        background-color: white;
+        transition: .2s;
+}
+.check-btn:hover{
+    background-color: green;
+        color: white;
+}
+.delete-btn{
+    flex: 1;
+        padding: 5px;
+        margin-right: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 1px solid black;
+        color: red;
+        background-color: white;
+        transition: .2s;
+}
+.delete-btn:hover{
+    background-color: red;
+        color: white;
+}
